@@ -1,1 +1,4 @@
+LR1_(clipped) ---> output of Linear regression model using differnece between teams' season advanced stats
+NM1 ---> output of Regression model using seed difference of teams
+Combined_Proba_0.5_0.5 ---> OUTPUT of the average of predictions from the two models above
 

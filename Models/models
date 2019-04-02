@@ -1,1 +1,6 @@
+linear regression model uses difference between the matchup teams' advanced stats to predict winning margin of each matchup
+margin calculated is converted to a probability using an optimised weight.
 
+Seed Difference model uses seed differnece between matchup teams' to generate a probability of the lower id team winning.
+
+combined probabilities calculates average of above two models' predictions and is the final output file used.

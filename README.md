@@ -13,4 +13,7 @@ the two probabilities are then averaged to produce the final winning probabiliti
 
 EXPLANATION:
 The advanced stats were selected according to their corrolations to how far teams advance in that year. and a model based on this model would be better at predicting upsets as it does not use seed as a feature.
-Seed difference is a good feature that has a high correlation with a teams performance, hence a balanced model is attempted to be produced by combining both season average stats and seed differences.
+
+Seed difference is a good feature that has a high correlation with a teams performance and performs well on its own when used with a regression approach, but wont do well at predicting upsets as it will always predict the team with the higher seed ranking to win.
+
+Hence a balanced model is attempted to be produced by combining both season average stats and seed differences to produce the final predictions.
